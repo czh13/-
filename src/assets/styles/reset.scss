@@ -1,0 +1,131 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    font-family: 'Arial',
+        sans-serif;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 3.5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1180px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+
+@media (min-width: 1180px) and (max-width: 1367px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1440px) {
+    html {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"name": "cartbank_official",
+	"private": true,
+	"type": "module",
+	"imports": {
+		"#*": "./*"
+	},
+	"scripts": {
+		"build": "nuxt build --dotenv .env.production",
+		"dev": "nuxt dev --dotenv .env.development",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@nuxt/image": "^1.7.0",
+		"@nuxtjs/i18n": "^8.3.1",
+		"aos": "^2.3.4",
+		"gsap": "^3.12.5",
+		"nuxt": "^3.11.2",
+		"vue": "^3.4.21",
+		"vue-router": "^4.3.0"
+	},
+	"devDependencies": {
+		"@nuxt/eslint-config": "^0.3.9",
+		"@types/aos": "^3.0.7",
+		"@unocss/nuxt": "^0.60.0",
+		"eslint": "^9.1.1",
+		"sass": "^1.75.0"
+	}
+}

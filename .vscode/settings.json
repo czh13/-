@@ -1,0 +1,7 @@
+{
+	"i18n-ally.localesPaths": ["src/locales"],
+	"i18n-ally.sourceLanguage": "en-US",
+	"i18n-ally.pathMatcher": "{locale}.json",
+	"i18n-ally.displayLanguage": "en-US",
+	"typescript.tsdk": "node_modules\\typescript\\lib"
+}
