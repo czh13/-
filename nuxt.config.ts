@@ -26,7 +26,7 @@ export default defineNuxtConfig({
 			charset: 'utf-8',
 			viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover',
 			title: 'Cartbank',
-			link: [{ rel: 'icon', type: 'image/x-icon', href: '' }],
+			link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
 		},
 		pageTransition: { name: 'page', mode: 'out-in' },
 		layoutTransition: { name: 'layout', mode: 'out-in' },
