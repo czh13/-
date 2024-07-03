@@ -17,7 +17,7 @@
 					</div> -->
 					<div class="text-4.5">
 						General questions:
-						<p class="text-[#4880ff]">business@toppay.cc</p>
+						<p class="text-[#4880ff]">Business@cartbank.com</p>
 					</div>
 				</div>
 				<div class="flex flex-col items-start gap-7 grid-area-[span_2/span_2/span_1/span_2]" v-for="item in footerNavList" :key="item.title">

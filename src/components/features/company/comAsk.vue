@@ -28,7 +28,7 @@ const helpTextList = [
 ]
 
 const handleGoEmail = () => {
-	window.location.href = 'mailto:business@toppay.cc?subject=Ask for more infomation about Cartbank'
+	window.location.href = 'mailto:Business@cartbank.com?subject=Ask for more infomation about Cartbank'
 }
 </script>
 
