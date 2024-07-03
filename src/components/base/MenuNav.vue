@@ -73,7 +73,8 @@ const titleMenu = {
 	Company: [
 		{
 			menuTitle: 'About Us',
-			menuText: 'Learn how Toppay helps global merchants to thrive in the local payment solutions. See what Toppay does for the world’s leading businesses.',
+			menuText:
+				'Learn how Cartbank helps global merchants to thrive in the local payment solutions. See what Cartbank does for the world’s leading businesses.',
 			menuPath: '/company',
 		},
 	],

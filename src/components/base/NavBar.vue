@@ -12,7 +12,7 @@
 							<div class="flex items-center" v-for="nav in navList" :key="nav.title">
 								<div class="bg-[#fff] relative cursor-pointer" @click="togglePopover(nav.title as TtitleType)">
 									<div class="text-[#272728] text-5 font-medium hover:text-[#0961CF] whitespace-nowrap">{{ nav.title }}</div>
-									<div :class="[{ 'block!': curTitle === nav.title }]" class="tp-bg-color rounded-1 h-1 absolute bottom--7.5 w-full hidden"></div>
+									<div :class="[{ 'block!': curTitle === nav.title }]" class="tp-bg-color rounded-1 h-1 absolute bottom--8 w-full hidden"></div>
 								</div>
 								<div class="tp-popover top-22 w-300 h-75" :class="[{ 'tp-popover-show': curTitle === nav.title }]">
 									<BaseMenuNav :title="nav.title as TtitleType" />

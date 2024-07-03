@@ -2,7 +2,7 @@
 	<section class="flex flex-col items-center pb-50 pt-30">
 		<div class="max-w-366">
 			<!-- <div class="flex mb-30">
-				<div class="font-semibold text-8.5 leading-14 w-[40%] mt-5">In 2023 Toppay has processed $17.7 billionworth of payments</div>
+				<div class="font-semibold text-8.5 leading-14 w-[40%] mt-5">In 2023 Cartbank has processed $17.7 billionworth of payments</div>
 				<div class="flex-1 flex gap-3.5">
 					<div class="flex flex-col relative" v-for="desc in descList" :key="desc.text">
 						<img class="w-70 h-87.5" :src="desc.descImg" alt="" />

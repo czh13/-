@@ -49,7 +49,7 @@ const soluList = [
 	{
 		url: getImageUrl('home-solu-sev.png', 'home'),
 		title: 'Payment Facilitators',
-		text: 'Use Toppay’s local entities to process payments in different countries',
+		text: 'Use Cartbank’s local entities to process payments in different countries',
 	},
 	{
 		url: getImageUrl('home-solu-eig.png', 'home'),

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<BaseFixNavBar />
+		<BaseNavBar />
 		<main>
 			<ProductBG />
 			<ProductIntro />

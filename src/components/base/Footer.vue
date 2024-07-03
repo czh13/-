@@ -13,7 +13,7 @@
 					</div> -->
 					<!-- <div class="text-3.5">
 						General questions:
-						<p class="text-[#4880ff]">Help_Service@Toppay.com</p>
+						<p class="text-[#4880ff]">Help_Service@Cartbank.com</p>
 					</div> -->
 					<div class="text-4.5">
 						General questions:
@@ -40,8 +40,8 @@
 		</div>
 		<div class="w-full pt-8 pb-30 border-t-[#C7C7C7] border-t border-style-solid">
 			<p class="text-4.5 leading-7 tp-t-white px-54 box-border">
-				Toppay, operates as a licensed third-party payment institution. Our premier product, Toppay, represents an innovative solution for global payments,
-				specifically tailored to deliver efficient and secure localized payment services to our esteemed business clients worldwide. Through Toppay, our
+				Cartbank, operates as a licensed third-party payment institution. Our premier product, Cartbank, represents an innovative solution for global payments,
+				specifically tailored to deliver efficient and secure localized payment services to our esteemed business clients worldwide. Through Cartbank, our
 				steadfast commitment lies in eliminating payment barriers that exist between businesses and users across diverse countries and regions, thereby
 				facilitating seamless business expansion and fostering sustainable growth opportunities for our valued clients. We are a global company with a presence
 				in Latin America, Asia, Oceania, and Africa.

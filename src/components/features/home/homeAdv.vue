@@ -76,7 +76,7 @@
 				</ClientOnly>
 
 				<div class="self-center flex flex-col items-center py-50">
-					<h3 class="text-10 leading-14 font-medium mb-10">Ready to speed up the business with Toppay?</h3>
+					<h3 class="text-10 leading-14 font-medium mb-10">Ready to speed up the business with Cartbank?</h3>
 					<BaseColorButton bgColor="#0961CF" color="#fff" @click="handleContacUs()">Contact Us</BaseColorButton>
 				</div>
 			</div>

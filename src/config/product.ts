@@ -48,7 +48,7 @@ export const products = {
 				},
 				Marketplaces: {
 					titleImg: getImageUrl('mark.png', 'product'),
-					title: 'Streamline operations and payments with Toppay',
+					title: 'Streamline operations and payments with Cartbank',
 					textList: [
 						'Reconciliation designed for users who are both payers and payees.',
 						'A single integration covering the local currency.',
@@ -67,22 +67,22 @@ export const products = {
 				},
 				'Global Payroll': {
 					titleImg: getImageUrl('glob.png', 'product'),
-					title: 'Toppay’s local entities to process payments in different countries.',
+					title: 'Cartbank’s local entities to process payments in different countries.',
 					textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 				},
 				Ecommerce: {
 					titleImg: getImageUrl('ecom.png', 'product'),
-					title: 'Toppay’s local entities to process payments in different countries.',
+					title: 'Cartbank’s local entities to process payments in different countries.',
 					textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 				},
 				Gaming: {
 					titleImg: getImageUrl('gami.png', 'product'),
-					title: 'Toppay’s local entities to process payments in different countries.',
+					title: 'Cartbank’s local entities to process payments in different countries.',
 					textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 				},
 				Crypto: {
 					titleImg: getImageUrl('crypto.png', 'product'),
-					title: 'Toppay’s local entities to process payments in different countries.',
+					title: 'Cartbank’s local entities to process payments in different countries.',
 					textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 				},
 			},
@@ -108,14 +108,14 @@ export const products = {
 		bg: {
 			bgTitle: 'Simplify your global payment and settlements',
 			bgText:
-				'Pay your staff, customers, and partners in the currency of their choice. Toppay’s Payouts enhances customer satisfaction and streamlines your payment process.',
+				'Pay your staff, customers, and partners in the currency of their choice. Cartbank’s Payouts enhances customer satisfaction and streamlines your payment process.',
 		},
 		intro: {
 			introList: [
 				{
 					icon: getImageUrl('icon-one.png', 'product'),
 					title: 'Distinguish payout operations through localization',
-					text: 'Toppay’s Payouts supports local currency payments allowing businesses to send payments in the currency of their choice and making it easier for the recipients to receive funds in their national currency.',
+					text: 'Cartbank’s Payouts supports local currency payments allowing businesses to send payments in the currency of their choice and making it easier for the recipients to receive funds in their national currency.',
 				},
 				{
 					icon: getImageUrl('icon-two.png', 'product'),
@@ -125,7 +125,7 @@ export const products = {
 				{
 					icon: getImageUrl('icon-thr.png', 'product'),
 					title: 'Manage batch settlements through one dashboard',
-					text: 'Toppay’s Payouts offers an easy-to-use merchant dashboard to manage payouts, with the options to customize and automate the payout process. ',
+					text: 'Cartbank’s Payouts offers an easy-to-use merchant dashboard to manage payouts, with the options to customize and automate the payout process. ',
 				},
 			],
 		},
@@ -165,7 +165,7 @@ export const products = {
 				},
 				'Shared Economy & Marketplaces': {
 					titleImg: getImageUrl('shar.png', 'product'),
-					title: 'Streamline operations and payments with Toppay',
+					title: 'Streamline operations and payments with Cartbank',
 					textList: [
 						'Reconciliation designed for users who are both payers and payees.',
 						'A single integration covering the local currency.',
@@ -221,7 +221,7 @@ export const products = {
 				{
 					icon: getImageUrl('icon-thr.png', 'product'),
 					title: 'Manage all payments, from a single dashboard',
-					text: 'From Toppay’s dashboard, you can have an overview of all your transactions, local and cross-border, and make changes with just a few clicks.',
+					text: 'From Cartbank’s dashboard, you can have an overview of all your transactions, local and cross-border, and make changes with just a few clicks.',
 				},
 			],
 		},
@@ -261,7 +261,7 @@ export const products = {
 				},
 				'Shared Economy & Marketplaces': {
 					titleImg: getImageUrl('shar.png', 'product'),
-					title: 'Streamline operations and payments with Toppay',
+					title: 'Streamline operations and payments with Cartbank',
 					textList: [
 						'Reconciliation designed for users who are both payers and payees.',
 						'A single integration covering the local currency.',

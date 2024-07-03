@@ -43,7 +43,7 @@ export const useProductInfo = () =>
 				tabContent: {
 					'Financial Institutions': {
 						titleImg: getImageUrl('fina.png', 'product'),
-						title: 'Use Toppay’s local entities to process payments in different countries.',
+						title: 'Use Cartbank’s local entities to process payments in different countries.',
 						textList: [
 							'AUS E-money licensed solution.',
 							'Local FX expertise.',
@@ -53,32 +53,32 @@ export const useProductInfo = () =>
 					},
 					Marketplaces: {
 						titleImg: getImageUrl('mark.png', 'product'),
-						title: 'Toppay’s local entities to process payments in different countries.',
+						title: 'Cartbank’s local entities to process payments in different countries.',
 						textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 					},
 					'Global PayrollMarketplaces': {
 						titleImg: getImageUrl('glob.png', 'product'),
-						title: 'Toppay’s local entities to process payments in different countries.',
+						title: 'Cartbank’s local entities to process payments in different countries.',
 						textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 					},
 					Ecommerce: {
 						titleImg: getImageUrl('ecom.png', 'product'),
-						title: 'Toppay’s local entities to process payments in different countries.',
+						title: 'Cartbank’s local entities to process payments in different countries.',
 						textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 					},
 					Gaming: {
 						titleImg: getImageUrl('gami.png', 'product'),
-						title: 'Toppay’s local entities to process payments in different countries.',
+						title: 'Cartbank’s local entities to process payments in different countries.',
 						textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 					},
 					Crypto: {
 						titleImg: getImageUrl('.png', 'product'),
-						title: 'Toppay’s local entities to process payments in different countries.',
+						title: 'Cartbank’s local entities to process payments in different countries.',
 						textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 					},
 					'Digital Media, Entertainment': {
 						titleImg: getImageUrl('digi.png', 'product'),
-						title: 'Toppay’s local entities to process payments in different countries.',
+						title: 'Cartbank’s local entities to process payments in different countries.',
 						textList: ['AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.', 'AUS E-money licensed solution.'],
 					},
 				},

@@ -2,7 +2,7 @@
 	<section class="bg-[#ECF6FF] flex flex-col items-center py-20">
 		<div class="max-w-370">
 			<div class="flex flex-col items-center gap-6">
-				<ScTitle>Get in touch with Toppay</ScTitle>
+				<ScTitle>Get in touch with Cartbank</ScTitle>
 				<h4 class="font-semibold text-9 self-start tp-t-color">Interested in learning what we can do for your business?</h4>
 				<div class="self-start flex flex-col">
 					<h4 class="text-10 mb-4">Our team can help you:</h4>
@@ -24,11 +24,11 @@ const helpTextList = [
 	'Demo products of interest.',
 	'Design a solution to accept and optimize payments.',
 	'Access custom pricing including cost, pricing, volume discounts, and more.',
-	'Get started on Toppay faster with dedicated implementation and support services.',
+	'Get started on Cartbank faster with dedicated implementation and support services.',
 ]
 
 const handleGoEmail = () => {
-	window.location.href = 'mailto:business@toppay.cc?subject=Ask for more infomation about Toppay'
+	window.location.href = 'mailto:business@toppay.cc?subject=Ask for more infomation about Cartbank'
 }
 </script>
 

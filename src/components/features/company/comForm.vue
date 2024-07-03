@@ -7,7 +7,7 @@
 		<BaseTpInput>Email</BaseTpInput>
 		<BaseTpInput>Last Name</BaseTpInput>
 		<div>
-			<p class="tp-t-color text-5 whitespace-nowrap">Which region(s) are you looking to process with Toppay？</p>
+			<p class="tp-t-color text-5 whitespace-nowrap">Which region(s) are you looking to process with Cartbank？</p>
 			<div class="flex flex-col gap-3 pt-3">
 				<BaseTpCheckbox>Latin America</BaseTpCheckbox>
 				<BaseTpCheckbox>Oceania</BaseTpCheckbox>

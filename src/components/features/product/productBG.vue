@@ -1,27 +1,18 @@
 <template>
-	<div>
-		<section class="home-bg flex flex-col items-center pt-50 pb-50 h-180 box-border">
-			<div class="max-w-372">
-				<div class="flex gap-39">
-					<div class="w-[55%] text-12 font-medium leading-25 tp-t-white">
-						{{ productInfo.bg.bgTitle.toUpperCase() }}
-					</div>
+	<section class="bg-[#f6f9ff] flex flex-col items-center pt-50 pb-40 h-200 box-border">
+		<div class="max-w-372">
+			<div class="relative">
+				<div class="w-[50%]">
+					<div class="text-12 font-medium leading-25 text-[#000]">{{ productInfo.bg.bgTitle.toUpperCase() }}</div>
 					<div class="flex-1 mt-5">
-						<article class="text-5 leading-10 mb-15 tp-t-white">
-							{{ productInfo.bg.bgText }}
-						</article>
-						<div class="flex gap-10">
-							<BaseColorButton :size="4.5" @click="handleContacUs()">Contact Us</BaseColorButton>
-
-							<!-- <div class="border border-solid bg-[#4e69f8] border-[#fff] tp-t-white tp-t-color py-3 px-5.5 w-fit rounded-1 font-medium cursor-pointer">
-							View Documentation
-						</div> -->
-						</div>
+						<article class="text-5 leading-9 mb-15 text-[#000]">{{ productInfo.bg.bgText }}</article>
+						<BaseColorButton :size="4.5" bgColor="#0961CF" color="#fff" @click="handleContacUs()">Contact Us</BaseColorButton>
 					</div>
 				</div>
+				<div class="home-bg w-205 h-98 absolute right--35 top-5"></div>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
 </template>
 
 <script setup lang="ts">
@@ -30,7 +21,8 @@ const productInfo = useProductInfo()
 
 <style lang="scss" scoped>
 .home-bg {
-	background: url('~/assets/Images/home/home-bg.png') no-repeat;
+	background: url('~/assets/Images/home/home-bg.png');
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
 }

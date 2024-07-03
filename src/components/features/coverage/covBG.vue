@@ -1,5 +1,5 @@
 <template>
-	<section class="cov-bg flex flex-col items-center pt-50 pb-47 w-full max-h-180 box-border" :style="{ background: `url(${covInfo.bg.img})` }">
+	<section class="cov-bg flex flex-col items-center pt-50 pb-47 w-full h-190 box-border" :style="{ background: `url(${covInfo.bg.img})` }">
 		<div class="max-w-370">
 			<div class="flex flex-col gap-6">
 				<div class="w-[50%] text-12 leading-16 font-medium tp-t-white">

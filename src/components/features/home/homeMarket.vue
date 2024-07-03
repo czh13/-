@@ -10,7 +10,7 @@
 							markets
 						</h4>
 						<p class="w-[70%] text-5 leading-7.5">
-							Toppay devotes to local payment methods for billions of untapped consumers in Africa, Asia, Oceania, and Latin America.
+							Cartbank devotes to local payment methods for billions of untapped consumers in Africa, Asia, Oceania, and Latin America.
 						</p>
 					</div>
 				</ClientOnly>

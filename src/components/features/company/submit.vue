@@ -2,7 +2,7 @@
 	<section class="flex flex-col items-center py-42.5">
 		<div class="max-w-370">
 			<div>
-				<ScTitle>Get in touch with Toppay</ScTitle>
+				<ScTitle>Get in touch with Cartbank</ScTitle>
 				<h4 class="font-semibold text-11 self-start mb-15 tp-t-color">Interested in learning what we can do for your business?</h4>
 				<div class="flex">
 					<div class="w-[60%]">
@@ -29,7 +29,7 @@ const helpTextList = [
 	'Demo products of interest.',
 	'Design a solution to accept and optimize payments.',
 	'Access custom pricing including cost, pricing, volume discounts, and more.',
-	'Get started on Toppay faster with dedicated implementation and support services.',
+	'Get started on Cartbank faster with dedicated implementation and support services.',
 ]
 </script>
 
