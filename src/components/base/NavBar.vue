@@ -5,7 +5,7 @@
 	>
 		<div class="max-w-372 w-full flex items-center">
 			<div class="w-full flex items-center gap-28.75">
-				<img class="w-25 h-6" src="~/assets/Images/common/logo-dark.png" alt="" @click="handleGo('/')" />
+				<img class="w-25 h-6 cursor-pointer" src="~/assets/Images/common/logo-dark.png" alt="" @click="handleGo('/')" />
 				<nav class="flex-1">
 					<div class="w-full flex items-center gap-23">
 						<div class="flex-1 flex items-center justify-around">
