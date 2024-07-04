@@ -1,11 +1,8 @@
 <template>
-	<div>
-		<BaseNavBar />
-		<main class="mt-22" @click="handleLeaveNav">
-			<CovBG />
-			<CovReason />
-		</main>
-	</div>
+	<main>
+		<CovBG />
+		<CovReason />
+	</main>
 </template>
 
 <script setup lang="ts">

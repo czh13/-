@@ -1,13 +1,10 @@
 <template>
-	<div>
-		<BaseNavBar />
-		<main class="mt-22" @click="handleLeaveNav">
-			<ComAbout />
-			<ComValues />
-			<ComMarket />
-			<ComAsk />
-		</main>
-	</div>
+	<main>
+		<ComAbout />
+		<ComValues />
+		<ComMarket />
+		<ComAsk />
+	</main>
 </template>
 
 <script setup lang="ts">

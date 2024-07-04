@@ -1,7 +1,7 @@
 <template>
 	<div
 		class="z-100 w-screen h-22 py-4 bg-[#ffffff] z-999 border-b-1 border-[#ececec] border-solid box-border flex items-center justify-center fixed top-0 left-0 transition-transform duration-[0.5s] ease-[ease-in-out]"
-		:class="{ '-translate-y-full': navHidden }"
+		:class="{ '-translate-y-full': isLeaveTop }"
 	>
 		<div class="max-w-372 w-full flex items-center">
 			<div class="w-full flex items-center gap-28.75">
@@ -46,7 +46,7 @@ const navList = [
 ]
 
 const curTitle = useCurTitle()
-const navHidden = ref(false)
+const isLeaveTop = useIsLeaveTop()
 const lastScrollTop = ref(0)
 
 const togglePopover = (title: TtitleType) => {
@@ -56,12 +56,8 @@ const togglePopover = (title: TtitleType) => {
 const handleScroll = () => {
 	curTitle.value = ''
 	const currentScroll = window.pageYOffset || document.documentElement.scrollTop
-	navHidden.value = currentScroll > lastScrollTop.value && currentScroll > 50
+	isLeaveTop.value = currentScroll > lastScrollTop.value && currentScroll > 50
 	lastScrollTop.value = currentScroll <= 0 ? 0 : currentScroll
-}
-
-const handleLeaveNav = () => {
-	curTitle.value = ''
 }
 
 onMounted(() => {

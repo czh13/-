@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-[#f6f9ff] flex flex-col items-center pt-50 pb-40 h-200 box-border">
+	<section class="bg-[#f6f9ff] flex flex-col items-center pt-28 pb-40 h-180 box-border">
 		<div class="max-w-372">
 			<div class="flex gap-10 relative">
 				<div class="w-[50%]">

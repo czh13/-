@@ -1,13 +1,10 @@
 <template>
-	<div>
-		<BaseNavBar />
-		<main>
-			<ProductBG />
-			<ProductIntro />
-			<ProductSolu />
-			<ProductOther />
-		</main>
-	</div>
+	<main>
+		<ProductBG />
+		<ProductIntro />
+		<ProductSolu />
+		<ProductOther />
+	</main>
 </template>
 
 <script setup lang="ts">

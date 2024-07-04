@@ -75,13 +75,6 @@ export default defineNuxtConfig({
 
 	css: ['~/assets/styles/common.scss', '~/assets/styles/reset.scss'],
 
-	unocss: {
-		rules: [
-			['tp-bg-color', { background: '#0961cf' }],
-			['tp-t-color', { color: '#0961cf' }],
-			['tp-t-white', { color: '#fff' }],
-		],
-	},
 	vite: {
 		css: {
 			preprocessorOptions: {

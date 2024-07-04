@@ -19,7 +19,7 @@
 						class="tp-t-color text-5 border-[2px] border-[#0961CF] border-solid rounded-2 py-2 px-5 box-border leading-7 cursor-pointer"
 						v-for="(service, serviceKey) in services"
 						:key="serviceKey"
-						:class="{ 'tp-t-white': serviceKey === serviceSign, 'bg-[#0961CF]': serviceKey === serviceSign }"
+						:class="{ 'tp-t-white bg-[#0961CF]': serviceKey === serviceSign }"
 						@click="handleService(serviceKey)"
 					>
 						{{ serviceKey }}

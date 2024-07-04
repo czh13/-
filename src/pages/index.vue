@@ -1,15 +1,12 @@
 <template>
-	<div>
-		<BaseNavBar />
-		<main>
-			<HomeBG />
-			<HomeService />
-			<HomeSolu />
-			<HomeMarket />
-			<HomeValues />
-			<HomeAdv />
-		</main>
-	</div>
+	<main>
+		<HomeBG />
+		<HomeService />
+		<HomeSolu />
+		<HomeMarket />
+		<HomeValues />
+		<HomeAdv />
+	</main>
 </template>
 
 <script setup lang="ts">
